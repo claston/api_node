@@ -1,0 +1,25 @@
+{
+  "name": "api_service",
+  "version": "1.0.0",
+  "description": "API de acesso a dados",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://localhost/Bonobo.Git.Server/API_Service.git"
+  },
+  "keywords": [
+    "API",
+    "Core"
+  ],
+  "author": "Clayton Gomes",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "consign": "^0.1.2",
+    "express": "^4.14.0",
+    "sworm": "^2.15.0"
+  }
+}
